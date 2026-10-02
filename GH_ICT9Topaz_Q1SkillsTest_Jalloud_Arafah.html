@@ -1,0 +1,189 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>OBMC Robotics Club Application Form</title>
+
+    <!-- Internal CSS -->
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f2f6fa;
+            margin: 0;
+            padding: 0;
+        }
+
+        header {
+            background-color: #692978;
+            color: white;
+            text-align: center;
+            padding: 30px;
+        }
+
+        main {
+            background-color: white;
+            width: 80%;
+            max-width: 900px;
+            margin: 30px auto;
+            padding: 30px;
+            border-radius: 10px;
+        }
+
+        h2 {
+            color: #692978;
+            margin-top: 30px;
+        }
+
+        img {
+            display: block;
+            margin: 20px auto;
+            border-radius: 10px;
+            max-width: 100%;
+        }
+
+        a {
+            color: #692978;
+            font-weight: bold;
+        }
+
+        li {
+            margin: 8px;
+        }
+
+        dt {
+            color: #692978;
+            margin-top: 15px;
+        }
+
+        dd {
+            margin-bottom: 10px;
+        }
+
+        form {
+            display: flex;
+            flex-direction: column;
+        }
+
+        label {
+            margin-top: 12px;
+            margin-bottom: 5px;
+        }
+
+        input[type="text"],
+        input[type="email"],
+        select,
+        textarea {
+            padding: 10px;
+            border: 1px solid #aaa;
+            border-radius: 5px;
+            font-size: 14px;
+        }
+
+        button {
+            margin-top: 20px;
+            padding: 12px;
+            background-color: #692978;
+            color: white;
+            border: none;
+            border-radius: 5px;
+            font-size: 16px;
+        }
+
+        footer {
+            text-align: center;
+            background-color: #692978;
+            color: white;
+            padding: 15px;
+        }
+    </style>
+</head>
+
+<body>
+
+    <header>
+        <h1>OBMC Robotics Club Application Form</h1>
+        <p>Welcome! Please fill out this form to apply for our school's Robotics Club.</p>
+    </header>
+
+    <main>
+
+        <img src="https://img.magnific.com/free-vector/graident-ai-robot-vectorart_78370-4114.jpg?semt=ais_hybrid&w=740&q=80"
+             alt="Robot" width="400">
+
+        <h2>About the Robotics Club</h2>
+
+        <p>
+            The OBMC Robotics Club is a place where students can learn about
+            robots, programming, engineering, and technology while working with others.
+        </p>
+
+        <p>
+            Learn more about robotics here:
+            <a href="https://www.nasa.gov/learning-resources/for-kids-and-students/" target="_blank">
+                NASA Robotics Resources
+            </a>
+        </p>
+
+        <h2>Application Form</h2>
+
+        <form>
+
+            <label for="name">Full Name:</label>
+            <input type="text" id="name" name="name" placeholder="Enter your full name">
+
+            <label for="email">Email:</label>
+            <input type="email" id="email" name="email" placeholder="Enter your email">
+
+            <label for="section">Section:</label>
+            <input type="text" id="section" name="section" placeholder="Enter your section">
+
+            <p><strong>Year Level:</strong></p>
+
+            <div>
+                <input type="radio" id="grade7" name="year" value="Grade 7">
+                <label for="grade7">Grade 7</label>
+
+                <input type="radio" id="grade8" name="year" value="Grade 8">
+                <label for="grade8">Grade 8</label>
+
+                <input type="radio" id="grade9" name="year" value="Grade 9">
+                <label for="grade9">Grade 9</label>
+
+                <input type="radio" id="grade10" name="year" value="Grade 10">
+                <label for="grade10">Grade 10</label>
+            </div>
+
+            <label for="experience">Robotics Experience:</label>
+
+            <select id="experience" name="experience">
+                <option value="">-- Select Experience --</option>
+                <option value="beginner">Beginner</option>
+                <option value="some">Some Experience</option>
+                <option value="experienced">Experienced</option>
+            </select>
+
+            
+            <label for="reason">Tell us why you want to join.</label>
+
+            <textarea id="reason" name="reason" rows="5"
+                placeholder="Write your reason here..."></textarea>
+
+            <button type="submit">Submit Application</button>
+
+        </form>
+
+        <h2>Top Robotics Activities We Offer</h2>
+        <ul>
+            <li>Line Following Robots</li>
+            <li>Obstacle Avoidance Programming</li>
+            <li>Light Following Robot</li>
+        </ul>
+
+
+    </main>
+
+    <footer>
+        <p> &copy; 2026 Robotics Club Application | Created by Arafah S. Jalloud of 9-Topaz</p>
+    </footer>
+
+</body>
+</html>
